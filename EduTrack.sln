@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduTrack.Models", "EduTrack.Models\EduTrack.Models.csproj", "{120AA924-BCEF-4990-9537-8D965661A9E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduTrack.Models", "EduTrack.Models\EduTrack.Models.csproj", "{120AA924-BCEF-4990-9537-8D965661A9E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduTrack.Data", "EduTrack.Data\EduTrack.Data.csproj", "{70B438BF-DC74-420B-B7C6-36EE209270B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduTrack.Data", "EduTrack.Data\EduTrack.Data.csproj", "{70B438BF-DC74-420B-B7C6-36EE209270B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduTrack.Core", "EduTrack.Core\EduTrack.Core.csproj", "{783857F2-3657-4F21-85F9-2F56C855DDEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduTrack.Core", "EduTrack.Core\EduTrack.Core.csproj", "{783857F2-3657-4F21-85F9-2F56C855DDEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EduTrack.Desktop", "EduTrack.Desktop\EduTrack.Desktop.csproj", "{0F5A8860-F13F-4532-9AA0-37C49B19A006}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EduTrack.Desktop", "EduTrack.Desktop\EduTrack.Desktop.csproj", "{0F5A8860-F13F-4532-9AA0-37C49B19A006}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{D8E4D536-4D99-4154-80DC-23AB618CF91B}"
+	ProjectSection(SolutionItems) = preProject
+		01_CreateDatabase.sql = 01_CreateDatabase.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

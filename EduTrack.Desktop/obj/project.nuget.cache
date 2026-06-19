@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fgPTDM7Dxh1B5P4piUTlN4gP9vrzZzJ5zQ3ZEZ8JdIxfOhnVfhCHaMrbzOS/BGsj1hzEha4pFeSKxI9U1kp8Bw==",
+  "dgSpecHash": "AyMwW5MBE0Mp+bCaVNy7IOxpCMHhpOPLr0CI3mxYA+1zhdmmLdzUGpAJjWvIj2ckRBuEOo286gsR4R3tE04c7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bakas\\source\\repos\\EduTrack\\EduTrack.Desktop\\EduTrack.Desktop.csproj",
+  "projectFilePath": "C:\\Users\\bakas\\Desktop\\MziuriY2\\EduTrack\\EduTrack\\EduTrack.Desktop\\EduTrack.Desktop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bakas\\.nuget\\packages\\dapper\\2.1.79\\dapper.2.1.79.nupkg.sha512",
     "C:\\Users\\bakas\\.nuget\\packages\\microsoft.bcl.cryptography\\8.0.0\\microsoft.bcl.cryptography.8.0.0.nupkg.sha512",

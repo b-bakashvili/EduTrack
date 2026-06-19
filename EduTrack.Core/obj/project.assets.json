@@ -1276,11 +1276,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bakas\\source\\repos\\EduTrack\\EduTrack.Core\\EduTrack.Core.csproj",
+      "projectUniqueName": "C:\\Users\\bakas\\Desktop\\MziuriY2\\EduTrack\\EduTrack\\EduTrack.Core\\EduTrack.Core.csproj",
       "projectName": "EduTrack.Core",
-      "projectPath": "C:\\Users\\bakas\\source\\repos\\EduTrack\\EduTrack.Core\\EduTrack.Core.csproj",
+      "projectPath": "C:\\Users\\bakas\\Desktop\\MziuriY2\\EduTrack\\EduTrack\\EduTrack.Core\\EduTrack.Core.csproj",
       "packagesPath": "C:\\Users\\bakas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bakas\\source\\repos\\EduTrack\\EduTrack.Core\\obj\\",
+      "outputPath": "C:\\Users\\bakas\\Desktop\\MziuriY2\\EduTrack\\EduTrack\\EduTrack.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bakas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1297,11 +1297,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\bakas\\source\\repos\\EduTrack\\EduTrack.Data\\EduTrack.Data.csproj": {
-              "projectPath": "C:\\Users\\bakas\\source\\repos\\EduTrack\\EduTrack.Data\\EduTrack.Data.csproj"
+            "C:\\Users\\bakas\\Desktop\\MziuriY2\\EduTrack\\EduTrack\\EduTrack.Data\\EduTrack.Data.csproj": {
+              "projectPath": "C:\\Users\\bakas\\Desktop\\MziuriY2\\EduTrack\\EduTrack\\EduTrack.Data\\EduTrack.Data.csproj"
             },
-            "C:\\Users\\bakas\\source\\repos\\EduTrack\\EduTrack.Models\\EduTrack.Models.csproj": {
-              "projectPath": "C:\\Users\\bakas\\source\\repos\\EduTrack\\EduTrack.Models\\EduTrack.Models.csproj"
+            "C:\\Users\\bakas\\Desktop\\MziuriY2\\EduTrack\\EduTrack\\EduTrack.Models\\EduTrack.Models.csproj": {
+              "projectPath": "C:\\Users\\bakas\\Desktop\\MziuriY2\\EduTrack\\EduTrack\\EduTrack.Models\\EduTrack.Models.csproj"
             }
           }
         }

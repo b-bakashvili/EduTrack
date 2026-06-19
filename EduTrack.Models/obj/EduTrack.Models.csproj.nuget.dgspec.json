@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bakas\\source\\repos\\EduTrack\\EduTrack.Models\\EduTrack.Models.csproj": {}
+    "C:\\Users\\bakas\\Desktop\\MziuriY2\\EduTrack\\EduTrack\\EduTrack.Models\\EduTrack.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bakas\\source\\repos\\EduTrack\\EduTrack.Models\\EduTrack.Models.csproj": {
+    "C:\\Users\\bakas\\Desktop\\MziuriY2\\EduTrack\\EduTrack\\EduTrack.Models\\EduTrack.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bakas\\source\\repos\\EduTrack\\EduTrack.Models\\EduTrack.Models.csproj",
+        "projectUniqueName": "C:\\Users\\bakas\\Desktop\\MziuriY2\\EduTrack\\EduTrack\\EduTrack.Models\\EduTrack.Models.csproj",
         "projectName": "EduTrack.Models",
-        "projectPath": "C:\\Users\\bakas\\source\\repos\\EduTrack\\EduTrack.Models\\EduTrack.Models.csproj",
+        "projectPath": "C:\\Users\\bakas\\Desktop\\MziuriY2\\EduTrack\\EduTrack\\EduTrack.Models\\EduTrack.Models.csproj",
         "packagesPath": "C:\\Users\\bakas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bakas\\source\\repos\\EduTrack\\EduTrack.Models\\obj\\",
+        "outputPath": "C:\\Users\\bakas\\Desktop\\MziuriY2\\EduTrack\\EduTrack\\EduTrack.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bakas\\AppData\\Roaming\\NuGet\\NuGet.Config",
