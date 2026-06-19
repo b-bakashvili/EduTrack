@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EduTrack.Models;
 
-internal class StudentStats
+public class StudentStats
 {
     public int StatID { get; set; }
     public int StudentID { get; set; }
