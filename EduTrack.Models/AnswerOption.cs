@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EduTrack.Models
+namespace EduTrack.Models;
+
+internal class AnswerOption
 {
-    internal class AnswerOption
-    {
-    }
+    public int OptionID { get; set; }
+    public int QuestionID { get; set; }
+    public string OptionText { get; set; }
+    public bool IsCorrect {  get; set; }
 }
