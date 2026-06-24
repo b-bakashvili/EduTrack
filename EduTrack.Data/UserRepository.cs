@@ -14,7 +14,7 @@ public class UserRepository
     {
         using (var connection = DbConnection.GetConnection())
         {
-            string sql = @"INSERT INTO Users (FullName, Email, [Password], Role)
+            string sql = @"INSERT INTO Users (FullName, Email, Password, Role)
                            VALUES (@FullName, @Email, @Password, @Role)";
             connection.Execute(sql, user);
         }
