@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Data.SqlClient;
 
-namespace EduTrack.Data
+namespace EduTrack.Data;
+
+public class DbConnection
 {
-    internal class DbConnection
+    private static string _connectionString = 
+        "Server=.\\SQLEXPRESS;Database=EduTrack;Trusted_Connection=True;TrustServerCertificate=True";
+
+    public static SqlConnection GetConnection()
     {
+        return new SqlConnection(_connectionString);
     }
 }

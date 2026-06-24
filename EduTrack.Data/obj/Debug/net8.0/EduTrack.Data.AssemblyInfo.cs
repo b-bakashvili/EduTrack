@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EduTrack.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a87aa4470409f94555e48e5150e2affee61585b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1be121d9402ccc964da198da06dd4521cb15b012")]
 [assembly: System.Reflection.AssemblyProductAttribute("EduTrack.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EduTrack.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
