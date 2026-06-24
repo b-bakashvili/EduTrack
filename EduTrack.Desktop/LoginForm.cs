@@ -41,8 +41,17 @@ namespace EduTrack.Desktop
                 return;
             }
 
-            MessageBox.Show($"Welcome {loggedInUser.FullName}!", "Success",
-                MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (loggedInUser.Role == "Teacher")
+            {
+                TeacherShell teacherShell = new TeacherShell(loggedInUser);
+                teacherShell.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show($"Welcome {loggedInUser.FullName}!", "Success",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void lblRegister_Click(object sender, EventArgs e)
