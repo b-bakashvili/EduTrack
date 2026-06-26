@@ -35,7 +35,7 @@ namespace EduTrack.Desktop
 
         private void btnManageQuizzes_Click(object sender, EventArgs e)
         {
-            // We will load quiz management UserControl here later
+            LoadControl(new ManageQuizzesControl(_currentUser.UserID));
         }
 
         private void btnClassOverview_Click(object sender, EventArgs e)

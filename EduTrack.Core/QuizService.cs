@@ -1,5 +1,6 @@
 ﻿using EduTrack.Data;
 using EduTrack.Models;
+using Dapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,10 +12,12 @@ namespace EduTrack.Core;
 public class QuizService
 {
     private readonly QuizRepository _quizRepository;
+    private readonly QuestionRepository _questionRepository;
 
     public QuizService()
     {
         _quizRepository = new QuizRepository();
+        _questionRepository = new QuestionRepository();
     }
 
     public List<Quiz> GetAll()
@@ -53,7 +56,7 @@ public class QuizService
 
     public void Delete(int quizID)
     {
-        _quizRepository.Delete(quizID);
+        _quizRepository.DeleteCascade(quizID);
     }
 
     public List<Quiz> GetActiveQuizzes()

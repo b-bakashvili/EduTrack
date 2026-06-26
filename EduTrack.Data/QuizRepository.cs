@@ -68,4 +68,19 @@ public class QuizRepository
             return connection.Query<Quiz>(sql).ToList();
         }
     }
+
+    public void DeleteCascade(int quizID)
+    {
+        using (var connection = DbConnection.GetConnection())
+        {
+            string sql = @"DELETE FROM AttemptAnswers WHERE AttemptID IN
+                           (SELECT AttemptID FROM QuizAttempts WHERE QuizID = @QuizID);
+                           DELETE FROM QuizAttempts WHERE QuizID = @QuizID;
+                           DELETE FROM AnswerOptions WHERE QuestionID IN
+                           (SELECT QuestionID FROM Questions WHERE QuizID = @QuizID);
+                           DELETE FROM Questions WHERE QuizID = @QuizID;
+                           DELETE FROM Quizzes WHERE QuizID = @QuizID;";
+            connection.Execute(sql, new { QuizID = quizID });
+        }
+    }
 }

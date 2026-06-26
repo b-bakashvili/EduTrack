@@ -77,4 +77,13 @@ public class QuestionRepository
             connection.Execute(sql, new { QuestionID = questionID });
         }
     }
+
+    public void DeleteByQuizID(int quizID)
+    {
+        using (var connection = DbConnection.GetConnection())
+        {
+            string sql = "DELETE FROM Questions WHERE QuizID = @QuizID";
+            connection.Execute(sql, new { QuizID = quizID });
+        }
+    }
 }
