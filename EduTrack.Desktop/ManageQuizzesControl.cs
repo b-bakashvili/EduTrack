@@ -41,7 +41,7 @@ namespace EduTrack.Desktop
 
         private void btnEditQuiz_Click(object sender, EventArgs e)
         {
-            if(dgvQuizzes.SelectedRows.Count == 0)
+            if (dgvQuizzes.SelectedRows.Count == 0)
             {
                 MessageBox.Show("Please select a quiz to edit.",
                     "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -56,7 +56,7 @@ namespace EduTrack.Desktop
 
         private void btnDeleteQuiz_Click(object sender, EventArgs e)
         {
-            if(dgvQuizzes.SelectedRows.Count == 0)
+            if (dgvQuizzes.SelectedRows.Count == 0)
             {
                 MessageBox.Show("Please select a quiz to delete.",
                     "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -79,12 +79,21 @@ namespace EduTrack.Desktop
                     MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
 
-            //if(result == DialogResult.Yes)
-            //{
-            //    int quizID = (int)dgvQuizzes.SelectedRows[0].Cells["QuizID"].Value;
-            //    LoadQuizzes();
-            //}
+        private void btnManageQuestions_Click(object sender, EventArgs e)
+        {
+            if(dgvQuizzes.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Please select a quiz first",
+                "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            int quizID = (int)dgvQuizzes.SelectedRows[0].Cells["QuizID"].Value;
+            int questionCount = _quizService.GetQuestionCount(quizID);
+            QuestionEditorForm editor = new QuestionEditorForm(quizID, questionCount + 1);
+            editor.ShowDialog();
         }
     }
 }

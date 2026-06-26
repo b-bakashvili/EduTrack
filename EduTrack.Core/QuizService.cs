@@ -63,4 +63,9 @@ public class QuizService
     {
         return _quizRepository.GetActiveQuizzes();
     }
+
+    public int GetQuestionCount(int quizID)
+    {
+        return _questionRepository.GetByQuizID(quizID).Count;
+    }
 }

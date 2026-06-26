@@ -33,6 +33,7 @@
             dgvQuizzes = new DataGridView();
             btnEditQuiz = new Button();
             btnDeleteQuiz = new Button();
+            btnManageQuestions = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvQuizzes).BeginInit();
             SuspendLayout();
             // 
@@ -111,11 +112,28 @@
             btnDeleteQuiz.UseVisualStyleBackColor = false;
             btnDeleteQuiz.Click += btnDeleteQuiz_Click;
             // 
+            // btnManageQuestions
+            // 
+            btnManageQuestions.BackColor = Color.FromArgb(58, 123, 213);
+            btnManageQuestions.Cursor = Cursors.Hand;
+            btnManageQuestions.FlatAppearance.BorderSize = 0;
+            btnManageQuestions.FlatStyle = FlatStyle.Flat;
+            btnManageQuestions.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnManageQuestions.ForeColor = Color.White;
+            btnManageQuestions.Location = new Point(274, 21);
+            btnManageQuestions.Name = "btnManageQuestions";
+            btnManageQuestions.Size = new Size(150, 38);
+            btnManageQuestions.TabIndex = 5;
+            btnManageQuestions.Text = "Manage Questions";
+            btnManageQuestions.UseVisualStyleBackColor = false;
+            btnManageQuestions.Click += btnManageQuestions_Click;
+            // 
             // ManageQuizzesControl
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
+            Controls.Add(btnManageQuestions);
             Controls.Add(btnDeleteQuiz);
             Controls.Add(btnEditQuiz);
             Controls.Add(dgvQuizzes);
@@ -135,5 +153,6 @@
         private DataGridView dgvQuizzes;
         private Button btnEditQuiz;
         private Button btnDeleteQuiz;
+        private Button btnManageQuestions;
     }
 }
