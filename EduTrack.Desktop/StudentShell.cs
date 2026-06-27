@@ -28,7 +28,7 @@ namespace EduTrack.Desktop
 
         private void btnAvailableQuizzes_Click(object sender, EventArgs e)
         {
-            // Load available quizzes control later
+            LoadControl(new AvailableQuizzesControl(_currentUser.UserID));
         }
 
         private void btnMyHistory_Click(object sender, EventArgs e)
