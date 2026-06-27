@@ -49,8 +49,9 @@ namespace EduTrack.Desktop
             }
             else
             {
-                MessageBox.Show($"Welcome {loggedInUser.FullName}!", "Success",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                StudentShell studentShell = new StudentShell(loggedInUser);
+                studentShell.Show();
+                this.Hide();
             }
         }
 

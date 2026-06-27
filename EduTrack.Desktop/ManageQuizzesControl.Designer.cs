@@ -43,7 +43,7 @@
             lblTitle.BackColor = Color.Transparent;
             lblTitle.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTitle.ForeColor = Color.FromArgb(27, 42, 74);
-            lblTitle.Location = new Point(20, 20);
+            lblTitle.Location = new Point(11, 17);
             lblTitle.Name = "lblTitle";
             lblTitle.Size = new Size(239, 41);
             lblTitle.TabIndex = 0;
@@ -120,9 +120,9 @@
             btnManageQuestions.FlatStyle = FlatStyle.Flat;
             btnManageQuestions.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnManageQuestions.ForeColor = Color.White;
-            btnManageQuestions.Location = new Point(274, 21);
+            btnManageQuestions.Location = new Point(256, 20);
             btnManageQuestions.Name = "btnManageQuestions";
-            btnManageQuestions.Size = new Size(150, 38);
+            btnManageQuestions.Size = new Size(170, 38);
             btnManageQuestions.TabIndex = 5;
             btnManageQuestions.Text = "Manage Questions";
             btnManageQuestions.UseVisualStyleBackColor = false;

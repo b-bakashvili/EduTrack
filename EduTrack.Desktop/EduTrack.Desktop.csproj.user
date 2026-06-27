@@ -16,6 +16,9 @@
     <Compile Update="RegisterForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="StudentShell.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="TeacherShell.cs">
       <SubType>Form</SubType>
     </Compile>
