@@ -54,7 +54,7 @@ namespace EduTrack.Desktop
         private void ShowQuestion(int index)
         {
             Question question = _questions[index];
-            _currentOptions = _questionService.GetAnswerByQuestionID(question.QuestionID);
+            _currentOptions = _questionService.GetAnswersByQuestionID(question.QuestionID);
 
             lblProgress.Text = $"Question {index + 1} of {_questions.Count}";
             progressBar.Value = index + 1;
@@ -104,8 +104,14 @@ namespace EduTrack.Desktop
 
         private void SubmitQuiz()
         {
-            MessageBox.Show("Quiz submitted! Results coming soon.",
-                "Submitted", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            GradingService gradingService = new GradingService();
+            StatsService statsService = new StatsService();
+
+            QuizAttempt attempt = gradingService.GradeQuiz(_studentID, _quizID, _questions, _answers);
+            statsService.UpdateStats(_studentID);
+
+            QuizResultForm resultForm = new QuizResultForm(attempt, _questions, _answers);
+            resultForm.ShowDialog();
             this.Close();
         }
     }

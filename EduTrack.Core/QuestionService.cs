@@ -44,7 +44,7 @@ public class QuestionService
         _questionRepository.AddAnswerOption(option);
     }
 
-    public List<AnswerOption> GetAnswerByQuestionID(int questionID)
+    public List<AnswerOption> GetAnswersByQuestionID(int questionID)
     {
         return _questionRepository.GetAnswersByQuestionID(questionID);
     }

@@ -8,4 +8,5 @@ public class StudentStats
     public int TotalAttempts { get; set; }
     public string CurrentCategory { get; set; }
     public DateTime LastUpdated { get; set; }
+    public string StudentName { get; set; }
 }
