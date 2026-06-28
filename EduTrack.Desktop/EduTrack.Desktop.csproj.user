@@ -10,6 +10,9 @@
     <Compile Update="ManageQuizzesControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="MyHistoryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="QuestionEditorForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -21,6 +24,9 @@
     </Compile>
     <Compile Update="RegisterForm.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StudentDashboardControl.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="StudentShell.cs">
       <SubType>Form</SubType>

@@ -23,7 +23,7 @@ namespace EduTrack.Desktop
 
         private void btnDashboard_Click(object sender, EventArgs e)
         {
-            // Load Dashboard control later
+            LoadControl(new StudentDashboardControl(_currentUser.UserID));
         }
 
         private void btnAvailableQuizzes_Click(object sender, EventArgs e)
@@ -33,7 +33,7 @@ namespace EduTrack.Desktop
 
         private void btnMyHistory_Click(object sender, EventArgs e)
         {
-            // Load history control later
+            LoadControl(new MyHistoryControl(_currentUser.UserID));
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
