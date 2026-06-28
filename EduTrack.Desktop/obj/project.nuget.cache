@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AyMwW5MBE0Mp+bCaVNy7IOxpCMHhpOPLr0CI3mxYA+1zhdmmLdzUGpAJjWvIj2ckRBuEOo286gsR4R3tE04c7A==",
+  "dgSpecHash": "EBNn4sUp2I5y6++1VDeHUygRwuDaXng3Ri0CkkPH9GgvLK8ePWvNzcRw3XCZ/WlXaAGMdDMrrP4yY98aceSeXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\bakas\\Desktop\\MziuriY2\\EduTrack\\EduTrack\\EduTrack.Desktop\\EduTrack.Desktop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bakas\\.nuget\\packages\\dapper\\2.1.79\\dapper.2.1.79.nupkg.sha512",
+    "C:\\Users\\bakas\\.nuget\\packages\\hic.system.windows.forms.datavisualization\\1.0.1\\hic.system.windows.forms.datavisualization.1.0.1.nupkg.sha512",
     "C:\\Users\\bakas\\.nuget\\packages\\microsoft.bcl.cryptography\\8.0.0\\microsoft.bcl.cryptography.8.0.0.nupkg.sha512",
     "C:\\Users\\bakas\\.nuget\\packages\\microsoft.data.sqlclient\\7.0.1\\microsoft.data.sqlclient.7.0.1.nupkg.sha512",
     "C:\\Users\\bakas\\.nuget\\packages\\microsoft.data.sqlclient.extensions.abstractions\\1.0.0\\microsoft.data.sqlclient.extensions.abstractions.1.0.0.nupkg.sha512",

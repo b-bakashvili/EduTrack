@@ -40,7 +40,7 @@ namespace EduTrack.Desktop
 
         private void btnClassOverview_Click(object sender, EventArgs e)
         {
-            // We will load class overview UserControl here later
+            LoadControl(new ClassOverviewControl());
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
